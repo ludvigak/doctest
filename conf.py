@@ -21,7 +21,7 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 
 import subprocess
-sys.path.append( "breathe/" )
+sys.path.append( "lib/breathe-4.1.0/" )
 
 # -- General configuration ------------------------------------------------
 
@@ -76,7 +76,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'lib']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -288,7 +288,7 @@ texinfo_documents = [
 # -- Options for Breathe -------------------------------------------------
 
 # Build Doxygen XML
-subprocess.call('doxygen doxygen.conf', shell=True)
+#subprocess.call('doxygen doxygen.conf', shell=True)
 
 breathe_projects = { "myproject": "doc/xml" }
 breathe_default_project = "myproject"

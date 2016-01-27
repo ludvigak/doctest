@@ -21,6 +21,7 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 
 import subprocess
+sys.path.append( "breathe/" )
 
 # -- General configuration ------------------------------------------------
 

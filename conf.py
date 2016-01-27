@@ -288,7 +288,7 @@ texinfo_documents = [
 # -- Options for Breathe -------------------------------------------------
 
 # Build Doxygen XML
-#subprocess.call('doxygen doxygen.conf', shell=True)
+subprocess.call('doxygen doxygen.conf', shell=True)
 
 breathe_projects = { "myproject": "doc/xml" }
 breathe_default_project = "myproject"

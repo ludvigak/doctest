@@ -21,7 +21,7 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 
 import subprocess
-sys.path.append( "lib/breathe-4.1.0/" )
+#sys.path.append( "lib/breathe-4.1.0/" )
 
 # -- General configuration ------------------------------------------------
 

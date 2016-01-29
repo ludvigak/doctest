@@ -6,22 +6,11 @@
 Doxygen + Breathe + Sphinx testing
 ==================================
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
 
-
-
-
-
-API listing:
-============
-
-.. doxygenindex::
-
-Indices and tables
-==================
+   api.rst
 
 * :ref:`genindex`
 
